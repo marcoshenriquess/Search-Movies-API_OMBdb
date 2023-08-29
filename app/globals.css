@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(95, 95, 95);
+    
+}
+.body{
+}
+.cx-movies{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.TESTE{
+    width: 300px;
+    margin-top: 100px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    filter: drop-shadow(0 0 0.75rem rgb(22, 18, 19));
+}
+.TESTE img{
+    border-radius: 15px;
+}
+.inpts-bt{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(158, 158, 158);
+    padding: 10px;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+}
+.inpts-bt input{
+    width: 300px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+.inpts-bt button{
+    cursor: pointer;
+    width: 80px;
+    height: 40px;
+    margin-left: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+    background-color: rgb(40, 208, 250);
+    color: white;
+    font-weight: 200;
+}
+.cx_img{
+    height: 445px;
+}
+.cx_DellBt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btnExcluir{
+    cursor: pointer;
+    width: 90px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+    background-color: rgb(153, 40, 40);
+    color: white;
+    font-weight: 200;
+}
+.cx_Conte{
+    height: 173.81px;
+}
